@@ -288,72 +288,69 @@
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 
-        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
         Start Call-widget
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-        <div class="call-widget-wrapper">
-            <button type="button" class="call-widget-btn"><span class="num"><i class="icon-call-icon"></i> +1 814 929
-                    4263</span> <span class="arrow"></span></button>
-            <div class="call-widget-form-area">
-                <form class="book-form">
-                    <div class="row justify-content-center mb-20-none">
-                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 form-group">
-                            <div class="book-select">
-                                <label>From</label>
-                                <div class="book-form-icon">
-                                    <i class="icon-from-airplane"></i>
-                                </div>
-                                <select class="book-select form--control">
-                                    <option value="dhaka" selected>Dhaka</option>
-                                    <option value="london">London</option>
-                                </select>
+    <div class="call-widget-wrapper">
+        <button type="button" class="call-widget-btn"><span class="num"><i class="icon-call-icon"></i> (+92)
+                300-5292928</span> <span class="arrow"></span></button>
+        <div class="call-widget-form-area">
+            <form class="book-form" method="POST" id="form2">
+                <div class="row justify-content-center mb-20-none">
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 form-group">
+                        <div class="book-select">
+                            <label>From</label>
+                            <div class="book-form-icon">
+                                <i class="fa fa-user"></i>
                             </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 form-group">
-                            <div class="book-select">
-                                <label>To</label>
-                                <div class="book-form-icon">
-                                    <i class="icon-to-airplane"></i>
-                                </div>
-                                <select class="book-select form--control">
-                                    <option value="london" selected>London</option>
-                                    <option value="dhaka">Dhaka</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 form-group">
-                            <div class="book-select">
-                                <label>Date</label>
-                                <div class="book-form-icon">
-                                    <i class="icon-schedule-icon"></i>
-                                </div>
-                                <select class="book-select form--control">
-                                    <option value="25/12/2021" selected>25/12/2021</option>
-                                    <option value="30/12/2021">30/12/2021</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 form-group">
-                            <label>Passenger</label>
-                            <div class="book-quantity">
-                                <div class="book-plus-minus">
-                                    <div class="dec qtybutton">-</div>
-                                    <input class="book-plus-minus-box qty" type="text" name="qty" value="1" readonly>
-                                    <div class="inc qtybutton">+</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-12 form-group">
-                            <button type="submit" class="btn--base w-100 mt-10"><i class="icon-btn-icon"></i> Book
-                                Now</button>
+                            <input type="hidden" name="subject" value="New Submission from Hemroc's Website">
+                            <input type="checkbox" name="botcheck" id="" style="display: none;">
+                            <input type="hidden" name="access_key" value="6524e227-f1f6-4a83-b01a-116c5cfe8718">
+                            <input class="book-select form--control" type="text" name="Name" id="">
                         </div>
                     </div>
-                </form>
-            </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 form-group">
+                        <div class="book-select">
+                            <label>Email</label>
+                            <div class="book-form-icon">
+                                <i class="fa fa-envelope"></i>
+                            </div>
+                            <input class="book-select form--control" type="email" name="Email" id="">
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 form-group">
+                        <div class="book-select">
+                            <label>Phone</label>
+                            <div class="book-form-icon">
+                                <i class="fa fa-phone"></i>
+                            </div>
+                            <input class="book-select form--control" type="number" name="Phone" id="">
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 form-group">
+                        <div class="book-select">
+                            <label>Message</label>
+                            <div class="book-form-icon">
+                                <i class="fa fa-message"></i>
+                            </div>
+                            <input class="book-select form--control" type="textarea" name="Message" id="">
+                        </div>
+                    </div>
+                    <div class="col-xl-12 form-group">
+                        <div id="formresult2"></div>
+                        <button type="submit" class="btn--base ml-auto mr-auto mt-30" id="formsubmitbtn2"><i
+                                class="icon-btn-icon"></i>Send Message</button>
+                    </div>
+                </div>
+            </form>
         </div>
-        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-        End Call-widget
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    </div>
+
+
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    End Call-widget
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 
         <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -436,7 +433,7 @@
                     <div class="col-xl-12 text-center">
                         <div class="section-header">
                             <span class="sub-title"><span>Why Us</span></span>
-                            <h2 class="section-title">Why Choose Our Flynext?</h2>
+                            <h2 class="section-title">Why Choose Hemroc Traders?</h2>
                         </div>
                     </div>
                 </div>
@@ -444,68 +441,62 @@
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-30">
                         <div class="choose-item">
                             <div class="choose-thumb">
-                                <img src="assets/images/choose.png" alt="choose">
+                                <img src="assets\images\gallery\Comprehensive Global Reach.jpg" alt="choose">
                             </div>
                             <span class="num">01</span>
-                            <h3 class="title">Leading private aviation</h3>
-                            <p>As well as getting to fly to many different
-                                destinations as part of their job, airplane
-                                pilots get big discounts on</p>
-                        </div>
+                            <h3 class="title">Comprehensive Global Reach</h3>
+                            <p>Our extensive network and partnerships enable us
+                            to provide tailored aviation solutions across 
+                            international borders.</div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-30">
                         <div class="choose-item">
                             <div class="choose-thumb">
-                                <img src="assets/images/choose.png" alt="choose">
+                                <img src="assets\images\gallery\Unmatched Customer Experience.jpg" alt="choose">
                             </div>
                             <span class="num">02</span>
-                            <h3 class="title">Tailored memberships</h3>
-                            <p>Charter an entire jet, or offer the seats you don’t need through our app a need for full
-                                or even fractional jet ownership</p>
+                            <h3 class="title">Unmatched Customer Experience</h3>
+                            <p>We prioritize your comfort and convenience, offering personalized services that cater to your unique needs</p>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-30">
                         <div class="choose-item">
                             <div class="choose-thumb">
-                                <img src="assets/images/choose.png" alt="choose">
+                                <img src="assets\images\gallery\Safety and Reliability.jpg" alt="choose">
                             </div>
                             <span class="num">03</span>
-                            <h3 class="title">Leading safety & privacy</h3>
-                            <p>XO is not simply a private jet service. Whether you’re traveling for business or leisure,
-                                XO Membership also delivers</p>
+                            <h3 class="title">Safety and Reliability</h3>
+                            <p>Safety is at the core of everything we do. With stringent compliance standards and collaborations with industry-leading operators.</p>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-30">
                         <div class="choose-item">
                             <div class="choose-thumb">
-                                <img src="assets/images/choose.png" alt="choose">
+                                <img src="assets\images\gallery\Customized Solutions.jpg" alt="choose">
                             </div>
                             <span class="num">04</span>
-                            <h3 class="title">Client ratings & reviews</h3>
-                            <p>Search the world with ease and transparency.As the only tech-forward private aviation
-                                company</p>
+                            <h3 class="title">Customized Solutions</h3>
+                            <p>Whether it’s a corporate jet for executives or specialized cargo transport, our solutions are designed to meet diverse aviation requirements. </p>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-30">
                         <div class="choose-item">
                             <div class="choose-thumb">
-                                <img src="assets/images/choose.png" alt="choose">
+                                <img src="assets\images\gallery\Sustainability Focus.jpg" alt="choose">
                             </div>
                             <span class="num">05</span>
-                            <h3 class="title">Exceptional service</h3>
-                            <p>Our technology consistently delivers the best pricing for charters – and the unique
-                                ability to buy individual seats.</p>
+                            <h3 class="title">Sustainability Focus</h3>
+                            <p>We are committed to sustainable aviation practices and eco-friendly initiatives to minimize our environmental impact without compromising on quality.</p>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-30">
                         <div class="choose-item">
                             <div class="choose-thumb">
-                                <img src="assets/images/choose.png" alt="choose">
+                                <img src="assets\images\gallery\Trusted Expertise.jpg" alt="choose">
                             </div>
                             <span class="num">06</span>
-                            <h3 class="title">Faster & smarter response</h3>
-                            <p>The first small jet-powered civil aircraft was the Morane-Saulnier MS.760 Paris,
-                                developed privately in the early 1950s</p>
+                            <h3 class="title">Trusted Expertise</h3>
+                            <p>Our experienced team of aviation professionals provides expert guidance at every step. With years of knowledge, we ensure a smooth experience.</p>
                         </div>
                     </div>
                 </div>
@@ -519,58 +510,59 @@
         <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
         Start Statistics
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-        <section class="statistics-section bg-overlay-black ptb-120 bg_img" data-background="assets/images/bg/bg-2.png">
-            <div class="container">
-                <div class="statistics-area">
-                    <div class="row mb-30-none">
-                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 mb-30">
-                            <div class="statistics-item">
-                                <div class="statistics-content">
-                                    <div class="odo-area">
-                                        <h3 class="odo-title odometer" data-odometer-final="95">0</h3>
-                                    </div>
-                                    <p>Professional Pilots</p>
-                                </div>
+    <section class="statistics-section bg-overlay-black ptb-120 bg_img"
+    data-background="assets/images/gallery/backgroundprojectandclient.jpg">
+    <div class="container">
+        <div class="statistics-area">
+            <div class="row mb-30-none">
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 mb-30">
+                    <div class="statistics-item">
+                        <div class="statistics-content">
+                            <div class="odo-area">
+                                <h3 class="odo-title odometer" data-odometer-final="100">0<span>+</span></h3>
                             </div>
+                            <p>Sea Shipments</p>
                         </div>
-                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 mb-30">
-                            <div class="statistics-item">
-                                <div class="statistics-content">
-                                    <div class="odo-area">
-                                        <h3 class="odo-title odometer" data-odometer-final="68">0</h3>
-                                    </div>
-                                    <p>Jet Airplanes</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 mb-30">
-                            <div class="statistics-item">
-                                <div class="statistics-content">
-                                    <div class="odo-area">
-                                        <h3 class="odo-title odometer" data-odometer-final="290">0</h3>
-                                    </div>
-                                    <p>World Airports</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 mb-30">
-                            <div class="statistics-item" data-aos="zoom-in" data-aos-duration="1200">
-                                <div class="statistics-content">
-                                    <div class="odo-area">
-                                        <h3 class="odo-title odometer" data-odometer-final="195">0</h3>
-                                    </div>
-                                    <p>Directions</p>
-                                </div>
-                            </div>
-                        </div>
-
                     </div>
                 </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 mb-30">
+                    <div class="statistics-item">
+                        <div class="statistics-content">
+                            <div class="odo-area">
+                                <h3 class="odo-title odometer" data-odometer-final="500">0</h3>
+                            </div>
+                            <p>Air Shipments</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 mb-30">
+                    <div class="statistics-item">
+                        <div class="statistics-content">
+                            <div class="odo-area">
+                                <h3 class="odo-title odometer" data-odometer-final="100">0</h3>
+                            </div>
+                            <p>Prodcuts</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 mb-30">
+                    <div class="statistics-item" data-aos="zoom-in" data-aos-duration="1200">
+                        <div class="statistics-content">
+                            <div class="odo-area">
+                                <h3 class="odo-title odometer" data-odometer-final="50">0</h3>
+                            </div>
+                            <p>Clients</p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-        </section>
-        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-        End Statistics
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+        </div>
+    </div>
+</section>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+End Statistics
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 
         <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -589,13 +581,13 @@
                 <div class="history-area">
                     <div class="history-item">
                         <div class="history-thumb" data-aos="fade-right" data-aos-duration="1200">
-                            <img src="assets/images/history/history-1.png" alt="history">
+                            <img src="assets\images\gallery\first step.jpg" alt="history">
                         </div>
                         <div class="history-content" data-aos="fade-left" data-aos-duration="1200">
-                            <h2 class="year">2012</h2>
-                            <h3 class="title">The First Private Jet</h3>
-                            <p>The Morane-Saulnier MS.760 Paris had a gross weight of 7,650 pounds (3.47 t), initially
-                                powered by two Turboméca Marboré turbojets of 880 pounds-force (3.9 kN) thrust.</p>
+                            <h2 class="year">2014</h2>
+                            <h3 class="title">The Start of Hemroc Traders</h3>
+                            <p>Hemroc was founded in 2014 by a group of safety-focused professionals who delivers unparalleled trading services 
+                                across different industries..</p>
                         </div>
                     </div>
                     <div class="history-item">
@@ -735,114 +727,116 @@
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 
-        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-        Start Client
+         <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Start client
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-        <section class="client-section ptb-120 bg_img" data-background="assets/images/bg/bg-5.png">
-            <div class="container-fluid p-0">
-                <div class="row justify-content-center">
-                    <div class="col-xl-12 text-center">
-                        <div class="section-header">
-                            <span class="sub-title"><span>Testimonial</span></span>
-                            <h2 class="section-title">Our Customer Feedback</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-xl-12">
-                        <div class="client-slider-two">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="client-item">
-                                        <div class="client-quote">
-                                            <i class="icon-quote"></i>
-                                        </div>
-                                        <div class="client-content">
-                                            <p>Global aircraft charter specialist Chapman Freeborn, part of the Avia
-                                                Solutions Group, opens Moscow office to support growth and expansion
-                                                plans in response to fast developing Russian market. </p>
-                                        </div>
-                                        <div class="client-footer">
-                                            <div class="client-post-meta">
-                                                <div class="user-thumb">
-                                                    <img src="assets/images/user.png" alt="user">
-                                                </div>
-                                                <span class="name">Jhon Abraham</span>
-                                            </div>
-                                            <span class="ratings">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star active"></i>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="client-item">
-                                        <div class="client-quote">
-                                            <i class="icon-quote"></i>
-                                        </div>
-                                        <div class="client-content">
-                                            <p>Our technology consistently delivers the best pricing for charters – and
-                                                the unique ability to buy individual seats. Search the world with ease
-                                                and transparency.As the only tech-forward </p>
-                                        </div>
-                                        <div class="client-footer">
-                                            <div class="client-post-meta">
-                                                <div class="user-thumb">
-                                                    <img src="assets/images/user.png" alt="user">
-                                                </div>
-                                                <span class="name">Mark John</span>
-                                            </div>
-                                            <span class="ratings">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star active"></i>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="client-item">
-                                        <div class="client-quote">
-                                            <i class="icon-quote"></i>
-                                        </div>
-                                        <div class="client-content">
-                                            <p>XO is not simply a private jet service. Whether you’re traveling for
-                                                business or leisure, XO Membership also delivers insider access to and
-                                                lifestyle services that enrich and broaden the journey. </p>
-                                        </div>
-                                        <div class="client-footer">
-                                            <div class="client-post-meta">
-                                                <div class="user-thumb">
-                                                    <img src="assets/images/user.png" alt="user">
-                                                </div>
-                                                <span class="name">James Walton</span>
-                                            </div>
-                                            <span class="ratings">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star active"></i>
-                                            </span>
-                                        </div>
-                                    </div>
+    <!-- <div class="brand-section ptb-120">
+        <div class="container">
+            <div class="row justify-content-center mt-10-none mb-10-none">
+                <div class="col-xl-12 text-center">
+                    <div class="brand-slider">
+                        <h2 class="section-title" id="clientTitle">Our Valued Clients</h2>
+                        <p id="clientDescription">Trusted by Leading Brands Around the Globe</p>
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="brand-item">
+                                    <img src="assets\images\brand\ckient-loges-ramez.png" alt="brand" loading="lazy">
                                 </div>
                             </div>
-                            <div class="swiper-pagination"></div>
+                            <div class="swiper-slide">
+                                <div class="brand-item">
+                                    <img src="assets\images\brand\clent-loges-ffc.png" alt="brand" loading="lazy">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="brand-item">
+                                    <img src="assets\images\brand\client-gray-cgt.png" alt="brand" loading="lazy">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="brand-item">
+                                    <img src="assets\images\brand\client-gray-cmacgm.png" alt="brand" loading="lazy">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="brand-item">
+                                    <img src="assets\images\brand\clent-rizaani-loges.png" alt="brand" loading="lazy">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="brand-item">
+                                    <img src="assets\images\brand\client-maltaro-loges.png" alt="brand" loading="lazy">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="brand-item">
+                                    <img src="assets\images\brand\client-spar-loges.png" alt="brand" loading="lazy">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="brand-item">
+                                    <img src="assets\images\brand\client-sweet-loges.png" alt="brand" loading="lazy">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="brand-item">
+                                    <img src="assets\images\brand\gray-client-qatar.png" alt="brand" loading="lazy">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="brand-item">
+                                    <img src="assets\images\brand\client-carefour-loges.png" alt="brand" loading="lazy">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="brand-item">
+                                    <img src="assets\images\brand\client-mareskline-loges.png" alt="brand" loading="lazy">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="brand-item">
+                                    <img src="assets\images\brand\client-metro-loges.png" alt="brand" loading="lazy">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="brand-item">
+                                    <img src="assets\images\brand\rawabi-logo-clients.png" alt="brand" loading="lazy">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="brand-item">
+                                    <img src="assets\images\brand\holding-logo-clients.png" alt="brand" loading="lazy">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="brand-item">
+                                    <img src="assets\images\brand\client-msc-loges.png" alt="brand" loading="lazy">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="brand-item">
+                                    <img src="assets\images\brand\client-safari-loges.png" alt="brand" loading="lazy">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="brand-item">
+                                    <img src="assets\images\brand\client-saudia-loges.png" alt="brand" loading="lazy">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="brand-item">
+                                    <img src="assets\images\brand\client-oman-loges.png" alt="brand" loading="lazy">
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-        End Client
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+        </div>
+    </div> -->
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+End Brand
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 
         <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -916,39 +910,105 @@
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 
-        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-        Start Brand
+      <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Start client
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-        <div class="brand-section ptb-120">
-            <div class="container">
-                <div class="row justify-content-center mt-10-none mb-10-none">
-                    <div class="col-xl-12 text-center">
-                        <div class="brand-slider">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="brand-item">
-                                        <img src="assets/images/brand/brand-1.png" alt="brand">
-                                    </div>
+    <div class="brand-section ptb-120">
+        <div class="container">
+            <div class="row justify-content-center mt-10-none mb-10-none">
+                <div class="col-xl-12 text-center">
+                    <div class="brand-slider">
+                        <h2 class="section-title" id="clientTitle">Our Valued Clients</h2>
+                        <p id="clientDescription">Trusted by Leading Brands Around the Globe</p>
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="brand-item">
+                                    <img src="assets\images\brand\ckient-loges-ramez.png" alt="brand" loading="lazy">
                                 </div>
-                                <div class="swiper-slide">
-                                    <div class="brand-item">
-                                        <img src="assets/images/brand/brand-2.png" alt="brand">
-                                    </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="brand-item">
+                                    <img src="assets\images\brand\clent-loges-ffc.png" alt="brand" loading="lazy">
                                 </div>
-                                <div class="swiper-slide">
-                                    <div class="brand-item">
-                                        <img src="assets/images/brand/brand-3.png" alt="brand">
-                                    </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="brand-item">
+                                    <img src="assets\images\brand\client-gray-cgt.png" alt="brand" loading="lazy">
                                 </div>
-                                <div class="swiper-slide">
-                                    <div class="brand-item">
-                                        <img src="assets/images/brand/brand-4.png" alt="brand">
-                                    </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="brand-item">
+                                    <img src="assets\images\brand\client-gray-cmacgm.png" alt="brand" loading="lazy">
                                 </div>
-                                <div class="swiper-slide">
-                                    <div class="brand-item">
-                                        <img src="assets/images/brand/brand-5.png" alt="brand">
-                                    </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="brand-item">
+                                    <img src="assets\images\brand\clent-rizaani-loges.png" alt="brand" loading="lazy">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="brand-item">
+                                    <img src="assets\images\brand\client-maltaro-loges.png" alt="brand" loading="lazy">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="brand-item">
+                                    <img src="assets\images\brand\client-spar-loges.png" alt="brand" loading="lazy">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="brand-item">
+                                    <img src="assets\images\brand\client-sweet-loges.png" alt="brand" loading="lazy">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="brand-item">
+                                    <img src="assets\images\brand\gray-client-qatar.png" alt="brand" loading="lazy">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="brand-item">
+                                    <img src="assets\images\brand\client-carefour-loges.png" alt="brand" loading="lazy">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="brand-item">
+                                    <img src="assets\images\brand\client-mareskline-loges.png" alt="brand" loading="lazy">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="brand-item">
+                                    <img src="assets\images\brand\client-metro-loges.png" alt="brand" loading="lazy">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="brand-item">
+                                    <img src="assets\images\brand\rawabi-logo-clients.png" alt="brand" loading="lazy">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="brand-item">
+                                    <img src="assets\images\brand\holding-logo-clients.png" alt="brand" loading="lazy">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="brand-item">
+                                    <img src="assets\images\brand\client-msc-loges.png" alt="brand" loading="lazy">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="brand-item">
+                                    <img src="assets\images\brand\client-safari-loges.png" alt="brand" loading="lazy">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="brand-item">
+                                    <img src="assets\images\brand\client-saudia-loges.png" alt="brand" loading="lazy">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="brand-item">
+                                    <img src="assets\images\brand\client-oman-loges.png" alt="brand" loading="lazy">
                                 </div>
                             </div>
                         </div>
@@ -956,130 +1016,153 @@
                 </div>
             </div>
         </div>
-        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-        End Brand
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    </div>
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+End Brand
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 
-        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
         Start Footer
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-        <footer class="footer-section section--bg pt-120">
-            <div class="footer-element" data-aos="fade-left" data-aos-duration="1200">
-                <img src="assets/images/element/element-1.png" alt="element">
-            </div>
-            <div class="container">
-                <div class="footer-top-area">
-                    <div class="row align-items-end mb-30-none">
-                        <div class="col-xl-4 col-lg-3 col-md-6 mb-30">
-                            <div class="footer-widget">
-                                <div class="footer-logo">
-                                    <a class="site-logo site-title" href="index.html"><img src="assets/images/logo.png"
-                                            alt="site-logo"></a>
-                                </div>
-                                <p>Flynext was founded in 1991 by a group of safety-focused professionals who created
-                                    The Wingman Standard for rigorously vetting air charter operators.</p>
+    <footer class="footer-section section--bg pt-120">
+        <div class="footer-element" data-aos="fade-left" data-aos-duration="1200">
+            <img src="assets/images/element/element-1.png" alt="element">
+        </div>
+        <div class="container">
+            <div class="footer-top-area">
+                <div class="row align-items-end mb-30-none">
+                    <div class="col-xl-3 col-lg-3 col-md-6 mb-30">
+                        <div class="footer-widget">
+                            <div class="footer-logo">
+                                <a class="site-logo site-title" href="index.html"><img
+                                        src="assets\images\gallery\hemroc-logo-2.png" alt="site-logo"></a>
                             </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-3 col-md-6 mb-30">
-                            <div class="footer-widget">
-                                <h4 class="widget-title">EUROPE</h4>
-                                <ul class="footer-list">
-                                    <li><a href="#0">Europe 45 Gloucester Road</a></li>
-                                    <li><a href="#0">London DT1M 3BF</a></li>
-                                    <li><a href="#0">+44 (0)20 3671 5709</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-xl-2 col-lg-3 col-md-6 mb-30">
-                            <div class="footer-widget">
-                                <h4 class="widget-title">ASIA & PACIFIC</h4>
-                                <ul class="footer-list">
-                                    <li><a href="#0">2473 Red Road Ste 98</a></li>
-                                    <li><a href="#0">Singapore SG</a></li>
-                                    <li><a href="#0">+ 1 623 211 6319</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-3 col-md-6 mb-30">
-                            <div class="footer-widget">
-                                <h4 class="widget-title">NORTH AMERICA</h4>
-                                <ul class="footer-list">
-                                    <li><a href="#0">Europe 45 Gloucester Road</a></li>
-                                    <li><a href="#0">London DT1M 3BF</a></li>
-                                    <li><a href="#0">+44 (0)20 3671 5709</a></li>
-                                </ul>
-                            </div>
+                            <p id="hemrocdesc">Hemroc was founded in 2014 by a group of safety-focused professionals
+                                who delivers
+                                unparalleled trading services across different industries.
+                            </p>
                         </div>
                     </div>
-                </div>
-                <div class="footer-bottom-area">
-                    <div class="row mb-30-none">
-                        <div class="col-xl-3 col-lg-3 col-md-6 mb-30">
-                            <div class="footer-widget">
-                                <h4 class="title">Get started</h4>
-                                <ul class="footer-list">
-                                    <li><a href="#0">Private jet</a></li>
-                                    <li><a href="#0">Register</a></li>
-                                    <li><a href="#0">Current Jet Deals</a></li>
-                                    <li><a href="#0">Flynext mobile app</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-3 col-md-6 mb-30">
-                            <div class="footer-widget">
-                                <h4 class="title">How it works</h4>
-                                <ul class="footer-list">
-                                    <li><a href="#0">How it works</a></li>
-                                    <li><a href="#0">Ways to fly</a></li>
-                                    <li><a href="#0">Ways to buy</a></li>
-                                    <li><a href="#0">Private charter</a></li>
-                                    <li><a href="#0">Private Jet Cost</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-xl-2 col-lg-2 col-md-6 mb-30">
-                            <div class="footer-widget">
-                                <h4 class="title">About us</h4>
-                                <ul class="footer-list">
-                                    <li><a href="#0">About us</a></li>
-                                    <li><a href="#0">News & press</a></li>
-                                    <li><a href="#0">Blog</a></li>
-                                    <li><a href="#0">FAQs</a></li>
-                                    <li><a href="#0">Careers</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
-                            <div class="footer-widget">
-                                <h4 class="title">Newsletter</h4>
-                                <p>Flynext was founded in 1991 by a group of safety-focused professionals erators.</p>
-                                <form class="subscribe-form">
-                                    <label class="subscribe-icon"><i class="las la-envelope"></i></label>
-                                    <input type="email" class="form--control" placeholder="Enter Email">
-                                    <button type="submit" class="btn--base">Subscribe Us <i
-                                            class="icon-btn-icon ml-1"></i></button>
-                                </form>
-                            </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 mb-30">
+                        <div class="footer-widget">
+                            <h4 class="widget-title">Air Freight</h4>
+                            <ul class="footer-list">
+                                <li><a href="#0" id="viaair">Our tailored air solutions meet the demands of
+                                        fast-moving
+                                        industries, ensuring your cargo reaches its destination swiftly.</a></li>
+
+                            </ul>
                         </div>
                     </div>
-                </div>
-                <div class="copyright-area">
-                    <div class="social-area">
-                        <ul class="footer-social">
-                            <li><a href="#0"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#0" class="active"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#0"><i class="fab fa-youtube"></i></a></li>
-                            <li><a href="#0"><i class="fab fa-instagram"></i></a></li>
-                        </ul>
+                    <div class="col-xl-3 col-lg-3 col-md-6 mb-30">
+                        <div class="footer-widget">
+                            <h4 class="widget-title">Cargo Ships</h4>
+                            <ul class="footer-list">
+                                <li id="viasea">Our expansive fleet navigates key global trade routes, ensuring your
+                                    bulk
+                                    shipments arrive safely and on time.</li>
+
+                            </ul>
+                        </div>
                     </div>
-                    <p>© 2024 Fly Next Airlines. All rights reserved.</p>
+                    <div class="col-xl-3 col-lg-3 col-md-6 mb-30">
+                        <div class="footer-widget">
+                            <h4 class="widget-title">Land Transport</h4>
+                            <ul class="footer-list">
+                                <li id="vialand">Our extensive network of trucks and distribution channels
+                                    guarantees fast,
+                                    dependable transport for your overland needs.</li>
+
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </footer>
-        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-        End Footer
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+            <div class="footer-bottom-area">
+                <div class="row mb-30-none">
+                    <div class="col-xl-3 col-lg-3 col-md-6 mb-30">
+                        <div class="footer-widget">
+                            <h4 class="title">Pakistan Office</h4>
+                            <ul class="footer-list " id="contact-info2">
+                                <strong>Address:</strong>
+                                <li> Malik House #03 - University Road (Near Agriculture off) Mardan - Kpk - Pak
+                                </li>
+                                <strong>Phone:</strong>
+                                <li> (+937) 862-917 / (+92) 300-5292928 / 313-7560016</li>
+                                <strong>Email:</strong>
+                                <li>hemrocpk@gmail.com / hemrocfoods@gmail.com / Info@hemroc.co</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 mb-30">
+                        <div class="footer-widget">
+                            <h4 class="title">Qatar Office </h4>
+                            <ul class="footer-list " id="contact-info2">
+                                <strong>Address:</strong>
+                                <li>Hemroc Trading & Contracting W.L.L
+                                    P.O Box 80451, Doha-Qatar.</li>
+                                <strong>Phone:</strong>
+                                <li>+ 974 7732-1399  / +974 7777-6302 / + 974 5539-4244</li>
+                                <strong>Email:</strong>
+                                <li>qatar@hemroc.co / hemroctc@gmail.com / Info@hemroc.co</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 mb-30">
+                        <div class="footer-widget">
+                            <h4 class="title">Turkey Office </h4>
+                            <ul class="footer-list " id="contact-info2">
+                                <strong>Address:</strong>
+                                <li> Evren, Bahar Cd. No:1/1, 34218 Bağcılar/İstanbul Turkiye</li>
+                                <strong>Phone:</strong>
+                                <li> +905529674196</li>
+                                <strong>Email:</strong>
+                                <li>turkey@hemroc.co / hemrocfoods@gmail.com / Info@hemroc.co</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-3 col-md-6 mb-30">
+                        <div class="footer-widget">
+                            <h4 class="title">Italy Office </h4>
+                            <ul class="footer-list " id="contact-info2">
+                                <strong>Address:</strong>
+                                <li>Alessandro Artom 1-Z.I. 72100 | Brindisi-Italy . </li>
+                                <strong>Phone:</strong>
+                                <li>+ 39 0831-572019 </li>
+                                <strong>Email:</strong>
+                                <li>eu@hemroc.co / hemrocfoods@gmail.com / Info@hemroc.co</li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <div id="globalfooter">
+                        <lottie-player
+                            src="https://lottie.host/fae5d384-b072-4eeb-ad32-ca3d1f5b32e6/3bjgTcywTb.json" speed="1"
+                            style="width: 75%; height: 450px" loop autoplay direction="1"
+                            mode="normal"></lottie-player>
+                    </div>
+
+                </div>
+            </div>
+            <div class="copyright-area">
+                <div class="social-area">
+                    <ul class="footer-social">
+                        <li><a href="#0"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#0" class="active"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#0"><i class="fab fa-youtube"></i></a></li>
+                        <li><a href="#0"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+                <p>© 2024 Hemroc Trading (Pvt.)Ltd. Developed by Anees_webdev.</p>
+            </div>
+        </div>
+    </footer>
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    End Footer
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
     </div>
 
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
